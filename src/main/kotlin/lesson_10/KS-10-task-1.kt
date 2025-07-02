@@ -2,6 +2,7 @@ package lesson_10
 
 const val ZERO = 0
 
+/*
 fun main() {
     var humanScore = 0
     var computerScore = 0
@@ -17,13 +18,12 @@ fun main() {
             humanScore += roll
             isHuman = false
             player = "Компьютер"
-            roll
+
         } else {
             val roll = makeRoll(player)
             computerScore += roll
             isHuman = true
             player = "Человек"
-            roll
         }
 
         println("Счет: Человек $humanScore : Компьютер $computerScore")
@@ -47,4 +47,4 @@ fun makeRoll(playerName: String): Int {
     println("Выпадает $roll")
     Thread.sleep(2000)
     return roll
-}
+}*/
